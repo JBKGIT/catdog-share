@@ -1,0 +1,105 @@
+
+
+/* 중앙 정렬 컨테이너 */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* 게시글 및 댓글 컨테이너 */
+.food_container, .comment_form, .comment_container, .concon_container, .post_content_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+   
+}
+
+/* 댓글 폼 레이블 스타일 */
+.comment_form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.comment_form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* 댓글 입력 영역 */
+.comment_form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+/* 댓글 등록 버튼 */
+.comment_form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.comment_form button:hover {
+    background-color: #0056b3;
+}
+
+/* 댓글 리스트 */
+.comment_container {
+    width: 100%;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.comment_container .comment {
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.button_container {
+    display: flex;
+    gap: 10px; /* 버튼 사이에 간격 추가 */
+    position: absolute; /* 절대 위치 지정 */
+    bottom: 20px; /* 아래쪽 20px */
+    right: 20px; /* 오른쪽 20px */
+}
+
+
+
+
+
+
+
+
+
